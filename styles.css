@@ -51,9 +51,14 @@ body
     padding: 20px 20px;
 }
 
+
+
 .bill_heading,.select_heading,.no_ppl
 {
     font-size: 0.9rem;
+    color: var(--Darkgrayishcyan);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
 }
 
 .common_input
@@ -141,6 +146,19 @@ body
 .custom_tip:active
 {
     border: 1px solid var(--Verydarkcyan);
+}
+
+.ppl_error
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.error
+{
+    font-size: 0.9rem;
+    color: red;
+    display: none;
 }
 
 .grid_2
