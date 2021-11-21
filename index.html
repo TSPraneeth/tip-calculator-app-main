@@ -11,7 +11,8 @@
   <title>Frontend Mentor | Tip calculator app</title>
 
   <link rel="stylesheet" href="./styles.css">
-  <link href="./script.js">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
 </head>
 
 <body>
@@ -23,11 +24,11 @@
         <input type="text" class="total_bill common_input">
         <p class="select_heading"> Select Tip %</p>
         <div class="tip_auto">
-          <a href="#" class="five">5%</a>
-          <a href="#" class="ten">10%</a>
-          <a href="#" class="fifteen">15%</a>
-          <a href="#" class="twenty5">25%</a>
-          <a href="#" class="fifty">50%</a>
+         <button class="five" value=5>5%</button>
+         <button class="ten" value=10>10%</button>
+         <button class="fifteen" value="15">15%</button>
+         <button class="twenty5" value=25>25%</button>
+         <button class="fifty" value=50>50%</button>
           <input type="text" class="custom_tip" placeholder="Custom">
         </div>
         <div class="ppl_error">
@@ -57,7 +58,7 @@
           </div>
           <div class="total_per_amt">$0.00</div>
         </div>
-        <a href="#" class="reset_btn">Reset</a>
+       <button class="reset_btn">Reset</button>
       </div>
     </div>
   </main>

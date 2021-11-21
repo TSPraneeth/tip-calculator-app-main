@@ -98,7 +98,7 @@ body
     margin-bottom: 1.5rem;
 }
 
-.tip_auto>a
+.tip_auto>button
 {
     text-decoration: none;
     text-align: center;
@@ -110,13 +110,14 @@ body
     font-weight: 500;
 }
 
-.tip_auto>a:focus
+.tip_auto>button.active
 {
     background-color: var(--Strongcyan);
     color: var(--Verydarkcyan);
+    border: none;
 }
 
-.tip_auto>a:hover
+.tip_auto>button:hover
 {
     background-color: var(--Strongcyan);
     color: var(--Verydarkcyan);
